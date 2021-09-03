@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/favicon.png"/>
+        <link rel="stylesheet" href="./css/style_apod.css"/>
+        <title>APOD</title>
+    </head>
+
+    <body>
+        <nav>
+            <h1>astronomy picture of the day --</h1>
+            <div class="inputs">
+                <label for="date">
+                    insira uma data:</label>
+                <input id="date" type="date"/>
+                <button id="btn"><img src="https://cdn-icons-png.flaticon.com/512/13/13267.png"/></button>
+            </div>
+        </nav>
+        <main class="container hidden">
+            <section class="info">
+                <div id="text">
+                    <h1 id="titulo"></h1>
+                    <p></p>
+                </div>
+                <div class="photo">
+                    <img id="imagem" src=""/>
+                </div>
+            </section>
+        </main>
+        <section class="card">
+            <img id="astronauta" src="./img/Happy Bunch - Astronaut.png"/>
+        </section>
+        <div class="legenda">
+            <h4>Descubra o cosmos! A cada dia, uma imagem ou fotografia diferente e uma
+                descrição escrita por um astrônomo profissional.</h4>
+        </div>
+        <footer>
+            Copyright © 2021 - Desenvolvido por Bárbara Cruz.
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+        <script src="./js/apod.js"></script>
+    </body>
+
+</html>

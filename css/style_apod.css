@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans Arabic';
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1%
+}
+nav h1{
+    margin: 0px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+}
+#date{
+    height: 25px;
+    font-family: 'IBM Plex Sans Arabic';
+    margin: 0px 10px;
+}
+#btn{
+    height: 30px;
+    width: 40px;
+    border: none;
+    border-radius:5px;
+    background:none;
+    cursor: pointer;
+}
+#btn img{
+    width: 75%;
+}
+.hidden{
+    display: none !important;
+}
+.card{
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,#4F000B, #720026, #FF7F51);
+    margin:auto;
+    border-radius:  15px;
+    box-shadow: 0px 0px 11px 8px #ccc;
+    height: 80vh
+}
+.container{
+    background: #000;
+    color: #f6f6f6;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 15px 11px #b7b7a4;
+}
+.info{
+    display: flex;
+}
+#text{
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+#imagem{
+    width: 70%;
+    margin: 5px;
+    max-height: 850px;
+}
+.legenda{
+    text-align: center;
+    margin: 10px;
+}
+footer {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        width: 100%;
+        bottom: 5px;
+}
