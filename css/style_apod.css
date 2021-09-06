@@ -10,8 +10,9 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 75%;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
 }
 #data{
     height: 40px;
@@ -59,7 +60,7 @@ nav h4{
 #imagem{
     width: 70%;
     margin: 5px;
-    max-height: 850px;
+    max-height: 500px;
 }
 
 footer {
@@ -72,4 +73,39 @@ footer {
 }
 .hidden{
     display: none !important;
+}
+
+@media(max-width:700px){
+    body {
+        background: url(../img/earth-planet_mobile.jpg);
+        background-position-x: center;
+    }
+    header{
+        margin: 0px;
+        font-size: 10px;
+        flex-direction: column;
+    }
+    nav{
+    position: inherit;
+    transform: none;
+    left: 0px;
+    top: 0px;
+    margin-top: 10%;
+    }
+    #date{
+        font-size: 35px
+    }
+    .info{
+        flex-direction: column;
+    }
+    #text{
+        width:85%
+    }
+    #imagem{
+        width:100%
+    }
+    footer{
+        position: relative;
+        margin-top: 55%;
+    }
 }
