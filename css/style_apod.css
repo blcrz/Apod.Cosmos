@@ -85,6 +85,11 @@ footer {
         font-size: 10px;
         flex-direction: column;
     }
+    #data{
+    font-size: 20px;
+    background: rgba(246,246,246,0.8);
+    color: #000;
+    }
     nav{
     position: inherit;
     transform: none;
@@ -93,7 +98,9 @@ footer {
     margin-top: 10%;
     }
     #date{
-        font-size: 35px
+    font-size: 25px;
+    background: rgba(246,246,246,0.8);
+    color: #000;
     }
     .info{
         flex-direction: column;
