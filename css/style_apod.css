@@ -17,7 +17,7 @@ header{
     height: 40px;
     font-family: 'Cairo';
     font-size: 25px;
-    background: rgba(246,246,246,0.1);
+    background: rgba(246,246,246,0.4);
     color: #f6f6f6;
     border: none;
     border-radius: 15px;
@@ -38,7 +38,7 @@ nav h4{
 #date{
     font-family: 'Cairo';
     font-size: 50px;
-    background: rgba(246,246,246,0.1);
+    background: rgba(246,246,246,0.4);
     color: #f6f6f6;
     border: none;
     border-radius: 15px;

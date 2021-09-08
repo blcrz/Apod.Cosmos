@@ -49,7 +49,7 @@ function apod(id){
             }
         },
         error: function(){
-            alert('Selecione uma data que corresponde até o dia atual')
+            alert('Ops! Selecione uma nova data que corresponda até o dia atual')
             load.style.display = 'none'
         }
     })
