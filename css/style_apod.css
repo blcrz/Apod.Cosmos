@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 
 body{
@@ -50,31 +49,53 @@ nav h4{
 }
 #text{
     width: 50%;
-    padding: 30px;
+    padding: 0px 30px 30px;
     text-align: justify;
+}
+#text h1, p{
+    margin: 0px;
 }
 .photo{
     display: flex;
     justify-content: center;
 }
 #imagem{
-    width: 70%;
     margin: 5px;
     max-height: 500px;
 }
+#video{
+    margin: 5px;
+}
 
-footer {
-        position: absolute;
+footer{
+        position: fixed;
         display: flex;
         justify-content: center;
         font-size: 12px;
         width: 100%;
-        bottom: 5px;
+        bottom: 0px;
+}
+footer a{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+footer a:hover {
+    text-decoration: underline;
+    font-size: 13px;
+}
+.loading{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 5%;
 }
 .hidden{
     display: none !important;
 }
-
 @media(max-width:700px){
     body {
         background: url(../img/earth-planet_mobile.jpg);
@@ -112,7 +133,6 @@ footer {
         width:100%
     }
     footer{
-        position: relative;
-        margin-top: 55%;
+        background: #000;
     }
 }
